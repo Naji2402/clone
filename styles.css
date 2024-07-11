@@ -60,7 +60,12 @@ body{
   column-gap: 16px;
   row-gap: 18px;
 }
-@media (max-width: 750px){
+@media (max-width: 650px){
+  .video-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px){
   .video-grid{
     grid-template-columns: 1fr 1fr;
   }
