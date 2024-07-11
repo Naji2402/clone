@@ -65,11 +65,6 @@ body{
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width:400px) and (max-width:600px){
-  .video-grid{
-    grid-template-columns: 1fr 1fr ;
-  }
-}
 @media (min-width:752px) and (max-width:999px){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
